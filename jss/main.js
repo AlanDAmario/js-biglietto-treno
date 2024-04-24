@@ -2,7 +2,7 @@
 // variabile età//
 
 const travelerAge = Number(prompt('inserire l\' eta'));
-console.log(travelerAge);
+console.log('età passeggero', travelerAge);
 
 //variabile km da percorerre//
 
@@ -17,8 +17,10 @@ console.log('priceKM', priceKM);
 //PERCENTUALI//
 
 const discount20 = 20;
+console.log('sconto minorenni :' + discount20);
 
 const discount40 = 40;
+console.log('sconto over 65 :' + discount40);
 
 //svolgimento//
 
@@ -37,4 +39,4 @@ if (travelerAge < 18) {
 }
 //ARROTONDAMENTO DECIMALE//
 
-console.log(Math.round(total * 100) / 100);
+console.log('prezzo arrotondato', Math.round(total * 100) / 100);
