@@ -25,8 +25,6 @@ console.log('sconto over 65 :' + discount40);
 //svolgimento//
 
 let total = priceKM * travelerKM;
-console.log('total', total);
-
 
 // }
 
@@ -39,4 +37,4 @@ if (travelerAge < 18) {
 }
 //ARROTONDAMENTO DECIMALE//
 
-console.log('prezzo arrotondato', Math.round(total * 100) / 100);
+console.log(`prezzo finale è' ${total.toFixed(2)}€`);
